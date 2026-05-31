@@ -43,4 +43,5 @@ case class ItemAlreadyExists(id: Id) extends CreationError
   */
 case class ValidationError(cause: String) extends CreationError
 
+// For demonstration purposes
 // case class ForbiddenError(cause: String) extends CreationError

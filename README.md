@@ -17,9 +17,9 @@ This project demonstrates the use of Tapir, a Scala library for describing HTTP 
 ## Architecture
 
 The project is structured into three main modules:
-- **Shared**: Contains the data models and endpoint definitions.
-- **Backend**: Implements the API logic and integrates with the HTTP server.
-- **Client**: Provides a simple interface for interacting with the API. It actually only demonstrates a few endpoints to show how to use the client code for Tapir.
+- [**Shared**](shared/): Contains the data models and endpoint definitions.
+- [**Backend**](backend/): Implements the API logic and integrates with the HTTP server.
+- [**Client**](client/): Provides a simple interface for interacting with the API. It actually only demonstrates a few endpoints to show how to use the client code for Tapir.
 - **"Database"**: There are no real database in this project, but the backend module includes a simple in-memory repository to store items and orders.
 
 ## Prerequisites
