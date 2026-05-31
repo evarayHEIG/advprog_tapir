@@ -1,0 +1,76 @@
+# sbt
+target/
+project/target/
+.bsp/
+dist/
+
+# Scala
+*.class
+*.scala.js
+*.scala.js.map
+.scala-build/
+
+# IDE
+.idea/
+.idea_modules/
+*.iml
+*.iws
+.vscode/
+.metals/
+.bloop/
+.env.local
+
+# Metals
+.metals/
+metals.sbt
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# IntelliJ
+out/
+.DS_Store
+
+# Build artifacts
+build/
+dist/
+*.jar
+*.war
+
+# Dependencies
+lib_managed/
+src_managed/
+project/boot/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python (si utilisé avec le projet)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Node (si utilisé)
+node_modules/
+npm-debug.log
+
+# Misc
+*.swp
+*.swo
+*~
+.cache
+.classpath
+.project
+.settings/
+.c9/
